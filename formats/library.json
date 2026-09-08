@@ -1,0 +1,46 @@
+[
+  {
+    "id": "earned_not_gifted",
+    "niche_tags": ["universal"],
+    "hook_archetype": "self_deprecating_reframe",
+    "why_it_works": "opens as a flex then undercuts itself. the list is unglamorous discipline, not talent, so it reads as honest rather than bragging. brand sits inside a habit list as one more boring correct decision. sad audio does the emotional work the text refuses to do",
+    "text_skeleton": "realizing i'm {POSITIVE_ADJECTIVE} but i'm {UNCOOL_HABIT_1} and {UNCOOL_HABIT_2}, {UNCOOL_HABIT_3}, {UNCOOL_HABIT_4}, {ACTION_WITH_BRAND}, and {UNCOOL_HABIT_5} {POSITIVE_ADJECTIVE}. not {ENVIED_TRAIT} {POSITIVE_ADJECTIVE}",
+    "base_clip": "clips/reaction_03.mp4",
+    "word_count": 44,
+    "audio_mood": "sad_reflective",
+    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile"
+  },
+  {
+    "id": "psychopath_observation_v2",
+    "niche_tags": ["universal"],
+    "hook_archetype": "third_person_admiration",
+    "why_it_works": "escalating negation list builds rhythm and each 'no' raises the stakes. the vulgar verb phrase before the payoff is what makes it shareable. subject is admired for refusing the easy path, so the product reads as the sane option without being pitched",
+    "text_skeleton": "my {RELATION} {DOING_THE_THING} after {LIFE_DECISION}. no {ALT_1}. no {ALT_2}. no {ALT_3}. no {COMPETITOR}. just {PRONOUN} and {LAST_RESORT_TOOL}. {VULGAR_VERB_PHRASE} like a psychopath",
+    "base_clip": "clips/reaction_01.mp4",
+    "word_count": 38,
+    "audio_mood": "tense_build",
+    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line"
+  },
+  {
+    "id": "red_flag_checklist",
+    "niche_tags": ["universal"],
+    "hook_archetype": "escalating_list_callout",
+    "why_it_works": "borrows dating-red-flag language to make vetting feel personal instead of clinical. the list format invites the viewer to self-check against it in real time, and putting the brand as the single green flag at the end flips the whole list without ever pitching it directly",
+    "text_skeleton": "red flags in a {PERSON_TYPE}: {RED_FLAG_1}. {RED_FLAG_2}. {RED_FLAG_3}. {RED_FLAG_4}. green flag: {ACTION_WITH_BRAND}",
+    "base_clip": "clips/reaction_02.mp4",
+    "word_count": 46,
+    "audio_mood": "meme_chaotic",
+    "visual_mechanic": "counting off red flags on raised fingers, exaggerated unimpressed head tilt"
+  },
+  {
+    "id": "delusional_confidence",
+    "niche_tags": ["universal"],
+    "hook_archetype": "unearned_confidence_flex",
+    "why_it_works": "opens with a claim big enough to sound delusional, which hooks curiosity about how it could possibly be true. the reveal is something small and mundane, so the gap between the claim and the reason is where the humor and the brand mention both land at once",
+    "text_skeleton": "tell me why i really thought i could {AMBITIOUS_CLAIM} and then {ACTION_WITH_BRAND} and now {UNEXPECTED_RESULT}",
+    "base_clip": "clips/reaction_04.mp4",
+    "word_count": 30,
+    "audio_mood": "chill_aspirational",
+    "visual_mechanic": "confident smirk into camera that fades into a slow wince on the reveal"
+  }
+]

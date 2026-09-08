@@ -1,0 +1,29 @@
+{
+  "brand_name": "Monzo",
+  "one_liner": "Monzo is a bank account you run entirely from your phone, with tools to split your money into pots, track your spending, and save automatically.",
+  "niche": "Mobile-first personal banking in the UK",
+  "icp": "UK adults who want to feel in control of their money without setting foot in a bank branch",
+  "core_pain": "never quite sure where all the money went this month",
+  "the_hard_way": "checking three different banking apps and a spreadsheet",
+  "alternatives": [
+    "their high street bank",
+    "a spreadsheet",
+    "a notes app"
+  ],
+  "named_competitors": [
+    "Starling",
+    "Revolut",
+    "Chase"
+  ],
+  "tone": [
+    "friendly",
+    "straightforward",
+    "approachable"
+  ],
+  "banned_claims": [
+    "the cheapest bank in the UK",
+    "guarantees your investments will grow",
+    "completely eliminates fraud",
+    "better than every other bank"
+  ]
+}

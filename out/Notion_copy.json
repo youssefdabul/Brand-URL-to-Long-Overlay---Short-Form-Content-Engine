@@ -1,0 +1,43 @@
+{
+  "brand_name": "Notion",
+  "chosen_format": {
+    "id": "red_flag_checklist",
+    "niche_tags": [
+      "universal"
+    ],
+    "hook_archetype": "escalating_list_callout",
+    "why_it_works": "borrows dating-red-flag language to make vetting feel personal instead of clinical. the list format invites the viewer to self-check against it in real time, and putting the brand as the single green flag at the end flips the whole list without ever pitching it directly",
+    "text_skeleton": "red flags in a {PERSON_TYPE}: {RED_FLAG_1}. {RED_FLAG_2}. {RED_FLAG_3}. {RED_FLAG_4}. green flag: {ACTION_WITH_BRAND}",
+    "base_clip": "clips/reaction_02.mp4",
+    "word_count": 46
+  },
+  "selection_reason": "The escalating self-check mechanic maps perfectly onto Notion's ICP — teams already know their workflow is broken and will recognize each red flag (searching Slack, digging through Drive, asking 'where's that doc?') in real time, making Notion's single green flag land as relief rather than a pitch.",
+  "variants": [
+    "red flags in a teammate: still files everything in confluence. sends the meeting notes in a slack thread. has seventeen google docs named \"final_v2\". asks you to resend the brief from three weeks ago. green flag: caught rebuilding the whole team wiki in notion at lunch",
+    "red flags in a project lead: runs the roadmap through a slack channel. keeps the brief in a google doc nobody can find. names folders \"new new final\". pings you for the deck link four times a week. green flag: you see her typing up next quarter in notion at 7am",
+    "red flags in a coworker: tracks tasks in a dead confluence page. pastes action items into slack and forgets them. has thirty-one browser tabs open every standup. emails you a doc titled \"use this one\". green flag: him quietly rebuilding the onboarding flow in notion before anyone asked"
+  ],
+  "scores": [
+    {
+      "variant_index": 0,
+      "hook_strength": 7,
+      "specificity": 9,
+      "sounds_human": 8
+    },
+    {
+      "variant_index": 1,
+      "hook_strength": 6,
+      "specificity": 7,
+      "sounds_human": 7
+    },
+    {
+      "variant_index": 2,
+      "hook_strength": 7,
+      "specificity": 9,
+      "sounds_human": 9
+    }
+  ],
+  "winner_index": 2,
+  "winner_reasoning": "Variant 2 has the most viscerally specific details — '31 browser tabs every standup' and 'use this one' are instantly recognizable and funny in a way that feels lived-in rather than constructed. The green flag payoff ('before anyone asked') lands with a quiet, human authenticity that makes the Notion pitch feel earned rather than forced.",
+  "winner": "red flags in a coworker: tracks tasks in a dead confluence page. pastes action items into slack and forgets them. has thirty-one browser tabs open every standup. emails you a doc titled \"use this one\". green flag: him quietly rebuilding the onboarding flow in notion before anyone asked"
+}

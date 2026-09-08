@@ -1,0 +1,88 @@
+{
+  "brand_name": "Linear",
+  "chosen_format": {
+    "id": "psychopath_observation_v2",
+    "niche_tags": [
+      "universal"
+    ],
+    "hook_archetype": "third_person_admiration",
+    "why_it_works": "escalating negation list builds rhythm and each 'no' raises the stakes. the vulgar verb phrase before the payoff is what makes it shareable. subject is admired for refusing the easy path, so the product reads as the sane option without being pitched",
+    "text_skeleton": "my {RELATION} {DOING_THE_THING} after {LIFE_DECISION}. no {ALT_1}. no {ALT_2}. no {ALT_3}. no {COMPETITOR}. just {PRONOUN} and {LAST_RESORT_TOOL}. {VULGAR_VERB_PHRASE} like a psychopath",
+    "base_clip": "clips/reaction_01.mp4",
+    "word_count": 38,
+    "audio_mood": "tense_build",
+    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line"
+  },
+  "format_scores": [
+    {
+      "id": "psychopath_observation_v2",
+      "score": 7,
+      "reason": "The 'no Jira, no Asana, no Notion' escalating negation list maps cleanly onto the named competitors and the 'just them and Linear' payoff frames the product as the sane-but-admired choice, though the 'psychopath' admiration framing slightly undercuts Linear's sharp, no-nonsense tone by making the user seem reckless rather than disciplined."
+    },
+    {
+      "id": "red_flag_checklist",
+      "score": 7,
+      "reason": "The self-check list mechanic maps well onto Linear's core pain—engineers can tick off each Jira-style dysfunction (manual ticket copying, buried backlogs, no shipping velocity) as a red flag in a project management tool, making the brand's green flag payoff feel earned rather than pitched, though the dating-language framing is a mild tonal stretch for Linear's sharp, no-nonsense voice."
+    },
+    {
+      "id": "delusional_confidence",
+      "score": 7,
+      "reason": "The 'delusional confidence gap' mechanic maps well to Linear's core pain because the joke writes itself — claiming you'll ship a product in a week while you're still manually copying Slack messages into Jira is exactly the absurd disconnect the format needs, and the reveal (Linear's AI handling the grunt work) lands in the same beat as the brand mention, hitting the_hard_way directly."
+    },
+    {
+      "id": "earned_not_gifted",
+      "score": 6,
+      "reason": "The 'unglamorous discipline habit list' mechanic fits the brand's no-nonsense tone and could naturally slot Linear usage alongside mundane dev rituals (standups, PR reviews), but it doesn't directly target the core pain of being buried in tickets or the specific hard way of copying Slack messages into Jira—the self-deprecating reframe works generically but doesn't sharpen against Linear's particular enemy."
+    }
+  ],
+  "selection_reason": "The 'no Jira, no Asana, no Notion' escalating negation list maps cleanly onto the named competitors and the 'just them and Linear' payoff frames the product as the sane-but-admired choice, though the 'psychopath' admiration framing slightly undercuts Linear's sharp, no-nonsense tone by making the user seem reckless rather than disciplined.",
+  "variants": [
+    {
+      "text": "my cofounder running the entire sprint solo after the lead dev quit. no standups. no status pings. no notion docs. no jira. just her and linear, triaging tickets at 2am like a psychopath",
+      "word_count": 33,
+      "length_flagged": false
+    },
+    {
+      "text": "my tech lead rebuilding the roadmap from scratch after the product pivot. no slack threads. no asana board. no sticky notes. no notion. just him and linear, closing tickets before the retro even starts like a psychopath",
+      "word_count": 37,
+      "length_flagged": false
+    },
+    {
+      "text": "my intern shipping features alone after the senior eng left. no meetings. no github issues. no asana. no jira. just them and linear, burning through the backlog on day three like a psychopath",
+      "word_count": 33,
+      "length_flagged": false
+    }
+  ],
+  "scores": [
+    {
+      "variant_index": 0,
+      "hook_strength": 8,
+      "specificity": 8,
+      "sounds_human": 9
+    },
+    {
+      "variant_index": 1,
+      "hook_strength": 6,
+      "specificity": 7,
+      "sounds_human": 7
+    },
+    {
+      "variant_index": 2,
+      "hook_strength": 8,
+      "specificity": 7,
+      "sounds_human": 8
+    }
+  ],
+  "winner_index": 0,
+  "winner_reasoning": "The cofounder detail makes the stakes feel real and personal, and '2am like a psychopath' lands as a genuinely human, specific image that the other variants can't match. The emotional texture of someone holding it together solo after a lead dev quits is the most viscerally relatable scenario of the three.",
+  "winner": "my cofounder running the entire sprint solo after the lead dev quit. no standups. no status pings. no notion docs. no jira. just her and linear, triaging tickets at 2am like a psychopath",
+  "creator_brief": {
+    "on_screen_text": "my cofounder running the entire sprint solo after the lead dev quit. no standups. no status pings. no notion docs. no jira. just her and linear, triaging tickets at 2am like a psychopath",
+    "base_clip": "clips/reaction_01.mp4",
+    "audio_mood": "tense_build",
+    "audio_note": "Keeping the format default: a sparse, low-tempo electronic track with a single looping synth pulse and a subtle bass swell that peaks right at '2am like a psychopath' — dark productivity energy, minor key, think minimalist dark-tech underscore.",
+    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line",
+    "performance_note": "Quiet, unhinged pride — the creator stares dead into camera with zero expression for most of the script, then lets a single corner of the mouth twitch upward on 'psychopath' before landing the slow nod, telegraphing 'yeah, we actually did that.'",
+    "format_reason": "The 'no Jira, no Asana, no Notion' escalating negation list maps cleanly onto the named competitors and the 'just them and Linear' payoff frames the product as the sane-but-admired choice, though the 'psychopath' admiration framing slightly undercuts Linear's sharp, no-nonsense tone by making the user seem reckless rather than disciplined."
+  }
+}

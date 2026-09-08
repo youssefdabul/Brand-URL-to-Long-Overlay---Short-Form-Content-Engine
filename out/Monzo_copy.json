@@ -1,0 +1,55 @@
+{
+  "brand_name": "Monzo",
+  "chosen_format": {
+    "id": "red_flag_checklist",
+    "niche_tags": [
+      "universal"
+    ],
+    "hook_archetype": "escalating_list_callout",
+    "why_it_works": "borrows dating-red-flag language to make vetting feel personal instead of clinical. the list format invites the viewer to self-check against it in real time, and putting the brand as the single green flag at the end flips the whole list without ever pitching it directly",
+    "text_skeleton": "red flags in a {PERSON_TYPE}: {RED_FLAG_1}. {RED_FLAG_2}. {RED_FLAG_3}. {RED_FLAG_4}. green flag: {ACTION_WITH_BRAND}",
+    "base_clip": "clips/reaction_02.mp4",
+    "word_count": 46
+  },
+  "selection_reason": "The 'red flag checklist' mechanic lets viewers self-audit their own chaotic money habits (checking multiple apps, using spreadsheets) in real time, making the pain feel personal and relational rather than clinical, with Monzo landing as the single green flag payoff — perfectly matching the ICP's desire to feel in control without being directly pitched to.",
+  "variants": [
+    {
+      "text": "red flags in a housemate: splitting rent through a notes app. no idea what they spent last weekend. checks three banking apps to find a tenner. still uses their barclays because they never got around to it. green flag: caught her sorting her monzo pots at the kitchen table on payday",
+      "word_count": 51,
+      "length_flagged": false
+    },
+    {
+      "text": "red flags in a flatmate: pays you back through revolut, cash app, whatever works. no savings pot, no plan. asks to borrow twenty quid four days before payday. genuinely cannot tell you where last month went. green flag: him labeling his monzo pots at midnight before a holiday",
+      "word_count": 48,
+      "length_flagged": false
+    },
+    {
+      "text": "red flags in a partner: splits bills on a spreadsheet. asks starling or revolut, whoever has signal. no idea what they spent on food last month. overdraft two weeks in, every month. green flag: her moving money into monzo pots before the rent even lands",
+      "word_count": 45,
+      "length_flagged": false
+    }
+  ],
+  "scores": [
+    {
+      "variant_index": 0,
+      "hook_strength": 7,
+      "specificity": 9,
+      "sounds_human": 9
+    },
+    {
+      "variant_index": 1,
+      "hook_strength": 7,
+      "specificity": 8,
+      "sounds_human": 9
+    },
+    {
+      "variant_index": 2,
+      "hook_strength": 6,
+      "specificity": 7,
+      "sounds_human": 7
+    }
+  ],
+  "winner_index": 0,
+  "winner_reasoning": "Variant 0 stacks the most physically observable, nameable details (notes app, three banking apps, a tenner, Barclays inertia) that feel genuinely overheard rather than written, and the kitchen-table payday image lands as a warm, specific payoff. The specificity of 'checks three banking apps to find a tenner' is the sharpest single line across all three variants.",
+  "winner": "red flags in a housemate: splitting rent through a notes app. no idea what they spent last weekend. checks three banking apps to find a tenner. still uses their barclays because they never got around to it. green flag: caught her sorting her monzo pots at the kitchen table on payday"
+}
