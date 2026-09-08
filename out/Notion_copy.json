@@ -1,21 +1,57 @@
 {
   "brand_name": "Notion",
   "chosen_format": {
-    "id": "red_flag_checklist",
+    "id": "earned_not_gifted",
     "niche_tags": [
       "universal"
     ],
-    "hook_archetype": "escalating_list_callout",
-    "why_it_works": "borrows dating-red-flag language to make vetting feel personal instead of clinical. the list format invites the viewer to self-check against it in real time, and putting the brand as the single green flag at the end flips the whole list without ever pitching it directly",
-    "text_skeleton": "red flags in a {PERSON_TYPE}: {RED_FLAG_1}. {RED_FLAG_2}. {RED_FLAG_3}. {RED_FLAG_4}. green flag: {ACTION_WITH_BRAND}",
-    "base_clip": "clips/reaction_02.mp4",
-    "word_count": 46
+    "hook_archetype": "self_deprecating_reframe",
+    "why_it_works": "opens as a flex then undercuts itself. the list is unglamorous discipline, not talent, so it reads as honest rather than bragging. brand sits inside a habit list as one more boring correct decision. sad audio does the emotional work the text refuses to do",
+    "text_skeleton": "realizing i'm {POSITIVE_ADJECTIVE} but i'm {UNCOOL_HABIT_1} and {UNCOOL_HABIT_2}, {UNCOOL_HABIT_3}, {UNCOOL_HABIT_4}, {ACTION_WITH_BRAND}, and {UNCOOL_HABIT_5} {POSITIVE_ADJECTIVE}. not {ENVIED_TRAIT} {POSITIVE_ADJECTIVE}",
+    "base_clip": "clips/reaction_03.mp4",
+    "word_count": 44,
+    "audio_mood": "sad_reflective",
+    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile"
   },
-  "selection_reason": "The escalating self-check mechanic maps perfectly onto Notion's ICP — teams already know their workflow is broken and will recognize each red flag (searching Slack, digging through Drive, asking 'where's that doc?') in real time, making Notion's single green flag land as relief rather than a pitch.",
+  "format_scores": [
+    {
+      "id": "earned_not_gifted",
+      "score": 8,
+      "reason": "The 'boring correct decisions' mechanic maps cleanly onto Notion's pain — using Notion instead of five scattered apps is exactly the kind of unglamorous discipline habit that slots into this list naturally, and the self-deprecating tone matches Notion's calm/clever register without needing much bending."
+    },
+    {
+      "id": "red_flag_checklist",
+      "score": 8,
+      "reason": "The red-flag checklist mechanic maps naturally onto Notion's pain point - each 'red flag' can be a recognizable symptom of the tab-drowning, multi-app chaos (e.g., 'keeps your docs in a Slack thread', 'sends you a Google Doc that links to a Jira that links to a spreadsheet'), and the green-flag payoff flips cleanly to Notion without pitching directly, matching the calm/clever tone well with only minor bending needed to frame a workspace tool in dating-vetting language."
+    },
+    {
+      "id": "delusional_confidence",
+      "score": 8,
+      "reason": "The mechanic fits well because the gap between an ambitious claim and the mundane reality (e.g., 'thought I could reorganize the entire company's knowledge base' → 'asked Notion AI where that one doc was' → 'actually found it') maps directly onto the core pain of drowning in tabs and the hard way of juggling five apps, and Notion's calm/clever tone pairs naturally with deadpan self-awareness without needing much bending."
+    },
+    {
+      "id": "psychopath_observation_v2",
+      "score": 6,
+      "reason": "The escalating negation list maps reasonably well to the 'drowning in tabs' pain and the hard way of copying between five apps — you can slot in Google Docs, Slack, Jira, Confluence as the negated alts — but the 'admired for refusing the easy path' mechanic slightly misfires because Notion IS the easy path, not the scrappy last resort, so the 'psychopath' framing has to be bent to make the chaos-embracer the subject rather than the Notion user."
+    }
+  ],
+  "selection_reason": "The 'boring correct decisions' mechanic maps cleanly onto Notion's pain — using Notion instead of five scattered apps is exactly the kind of unglamorous discipline habit that slots into this list naturally, and the self-deprecating tone matches Notion's calm/clever register without needing much bending.",
   "variants": [
-    "red flags in a teammate: still files everything in confluence. sends the meeting notes in a slack thread. has seventeen google docs named \"final_v2\". asks you to resend the brief from three weeks ago. green flag: caught rebuilding the whole team wiki in notion at lunch",
-    "red flags in a project lead: runs the roadmap through a slack channel. keeps the brief in a google doc nobody can find. names folders \"new new final\". pings you for the deck link four times a week. green flag: you see her typing up next quarter in notion at 7am",
-    "red flags in a coworker: tracks tasks in a dead confluence page. pastes action items into slack and forgets them. has thirty-one browser tabs open every standup. emails you a doc titled \"use this one\". green flag: him quietly rebuilding the onboarding flow in notion before anyone asked"
+    {
+      "text": "realizing i'm organized but i'm leaving comments in slack, pasting the same brief into google docs every monday, missing standups, searching confluence for a link i already opened, rebuilding her team wiki in notion at midnight, and exhausted organized. not naturally organized",
+      "word_count": 42,
+      "length_flagged": false
+    },
+    {
+      "text": "realizing i'm disciplined but i'm copy-pasting updates into clickup and asana, writing the same meeting notes twice, losing docs in a shared slack channel, asking where the brief lives again, watching him pull up notion and just search once, and quietly disciplined. not effortlessly disciplined",
+      "word_count": 45,
+      "length_flagged": false
+    },
+    {
+      "text": "realizing i'm productive but i'm toggling between coda and confluence tabs, rewriting the project brief from scratch, screenshotting slack threads to remember them, asking the same question in three different channels, rebuilding the whole doc in notion the night it's due, and unglamorous productive. not born productive",
+      "word_count": 47,
+      "length_flagged": false
+    }
   ],
   "scores": [
     {
@@ -27,17 +63,26 @@
     {
       "variant_index": 1,
       "hook_strength": 6,
-      "specificity": 7,
+      "specificity": 9,
       "sounds_human": 7
     },
     {
       "variant_index": 2,
       "hook_strength": 7,
       "specificity": 9,
-      "sounds_human": 9
+      "sounds_human": 8
     }
   ],
-  "winner_index": 2,
-  "winner_reasoning": "Variant 2 has the most viscerally specific details — '31 browser tabs every standup' and 'use this one' are instantly recognizable and funny in a way that feels lived-in rather than constructed. The green flag payoff ('before anyone asked') lands with a quiet, human authenticity that makes the Notion pitch feel earned rather than forced.",
-  "winner": "red flags in a coworker: tracks tasks in a dead confluence page. pastes action items into slack and forgets them. has thirty-one browser tabs open every standup. emails you a doc titled \"use this one\". green flag: him quietly rebuilding the onboarding flow in notion before anyone asked"
+  "winner_index": 0,
+  "winner_reasoning": "Variant 0 lands hardest because 'exhausted organized' is the most emotionally resonant payoff phrase of the three, and the midnight wiki rebuild detail is viscerally relatable without feeling constructed. The contrast between the opening claim and the lived reality hits faster and cleaner than the other two.",
+  "winner": "realizing i'm organized but i'm leaving comments in slack, pasting the same brief into google docs every monday, missing standups, searching confluence for a link i already opened, rebuilding her team wiki in notion at midnight, and exhausted organized. not naturally organized",
+  "creator_brief": {
+    "on_screen_text": "realizing i'm organized but i'm leaving comments in slack, pasting the same brief into google docs every monday, missing standups, searching confluence for a link i already opened, rebuilding her team wiki in notion at midnight, and exhausted organized. not naturally organized",
+    "base_clip": "clips/reaction_03.mp4",
+    "audio_mood": "sad_reflective",
+    "audio_note": "Keeping the format default — slow, minimal lo-fi piano in a minor key, around 70 BPM, with a quiet ambient hum underneath; the kind of late-night bedroom track that feels like staring at a screen past midnight.",
+    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile",
+    "performance_note": "Tired self-recognition — the slow dawning realization that all that effort was just friction, not skill; shows as a soft exhale, eyes drifting down mid-sentence, and a faint rueful smile that never quite becomes pride.",
+    "format_reason": "The 'boring correct decisions' mechanic maps cleanly onto Notion's pain — using Notion instead of five scattered apps is exactly the kind of unglamorous discipline habit that slots into this list naturally, and the self-deprecating tone matches Notion's calm/clever register without needing much bending."
+  }
 }

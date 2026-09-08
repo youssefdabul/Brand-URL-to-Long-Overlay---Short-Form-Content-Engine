@@ -1,13 +1,13 @@
 {
   "brand_name": "Oura Ring",
-  "one_liner": "A ring you wear 24/7 that tracks your sleep, stress, heart health, and activity and tells you what it all means for your body.",
-  "niche": "Wearable health tracking",
-  "icp": "Health-conscious adults who want to understand what's actually going on inside their body, not just count steps",
-  "core_pain": "no idea why you feel tired or off today",
-  "the_hard_way": "guessing based on how groggy she feels",
+  "one_liner": "A smart ring you wear 24/7 that tracks your sleep, stress, heart health, and activity and tells you what's actually going on inside your body.",
+  "niche": "Wearable health and wellness tracking",
+  "icp": "Health-conscious adults who want to understand their body beyond step counts — people who obsess over sleep quality, recovery, and long-term wellbeing rather than just hitting a daily move goal",
+  "core_pain": "never sure why you feel off or exhausted",
+  "the_hard_way": "guessing based on how tired she looks",
   "alternatives": [
     "a Fitbit",
-    "an Apple Watch",
+    "Apple Watch",
     "a sleep journal"
   ],
   "named_competitors": [
@@ -19,13 +19,13 @@
   "tone": [
     "calm",
     "personal",
-    "science-backed"
+    "grounded"
   ],
   "banned_claims": [
     "replaces your doctor",
-    "diagnoses any condition",
-    "guarantees better health",
-    "prevents disease",
-    "medically certified treatment"
+    "diagnoses health conditions",
+    "guarantees better sleep",
+    "extends your lifespan",
+    "100% accurate medical data"
   ]
 }

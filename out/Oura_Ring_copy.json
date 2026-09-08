@@ -1,55 +1,55 @@
 {
   "brand_name": "Oura Ring",
   "chosen_format": {
-    "id": "psychopath_observation_v2",
+    "id": "earned_not_gifted",
     "niche_tags": [
       "universal"
     ],
-    "hook_archetype": "third_person_admiration",
-    "why_it_works": "escalating negation list builds rhythm and each 'no' raises the stakes. the vulgar verb phrase before the payoff is what makes it shareable. subject is admired for refusing the easy path, so the product reads as the sane option without being pitched",
-    "text_skeleton": "my {RELATION} {DOING_THE_THING} after {LIFE_DECISION}. no {ALT_1}. no {ALT_2}. no {ALT_3}. no {COMPETITOR}. just {PRONOUN} and {LAST_RESORT_TOOL}. {VULGAR_VERB_PHRASE} like a psychopath",
-    "base_clip": "clips/reaction_01.mp4",
-    "word_count": 38,
-    "audio_mood": "tense_build",
-    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line"
+    "hook_archetype": "self_deprecating_reframe",
+    "why_it_works": "opens as a flex then undercuts itself. the list is unglamorous discipline, not talent, so it reads as honest rather than bragging. brand sits inside a habit list as one more boring correct decision. sad audio does the emotional work the text refuses to do",
+    "text_skeleton": "realizing i'm {POSITIVE_ADJECTIVE} but i'm {UNCOOL_HABIT_1} and {UNCOOL_HABIT_2}, {UNCOOL_HABIT_3}, {UNCOOL_HABIT_4}, {ACTION_WITH_BRAND}, and {UNCOOL_HABIT_5} {POSITIVE_ADJECTIVE}. not {ENVIED_TRAIT} {POSITIVE_ADJECTIVE}",
+    "base_clip": "clips/reaction_03.mp4",
+    "word_count": 44,
+    "audio_mood": "sad_reflective",
+    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile"
   },
   "format_scores": [
     {
-      "id": "psychopath_observation_v2",
-      "score": 6,
-      "reason": "The escalating negation mechanic slots in reasonably well (no guessing, no Fitbit, no sleep journal) and the 'admired for refusing the easy path' framing matches the Oura ICP who rejects surface-level tracking, but the vulgar-psychopath shareability register clashes with Oura's calm, science-backed tone, requiring real bending to land without feeling off-brand."
+      "id": "earned_not_gifted",
+      "score": 8,
+      "reason": "The mechanic of embedding the brand inside an unglamorous discipline list fits Oura naturally — checking your readiness score or HRV is exactly the kind of unsexy, obsessive habit this format celebrates, and the self-deprecating reframe ('not gifted, just boring and consistent') aligns with Oura's calm, grounded tone and the insight that feeling good comes from tracking the invisible, not looking like you're grinding."
     },
     {
-      "id": "earned_not_gifted",
-      "score": 5,
-      "reason": "The format's mechanic—flexing discipline through unglamorous habits—can slot Oura in as one boring-but-correct decision (e.g., 'checking my readiness score before deciding to push hard'), but the core pain of 'no idea why you feel tired or off' is about confusion and lack of insight, not undisciplined laziness, so the self-deprecating discipline-flex emotional register only partially matches and requires moderate bending to make Oura's 'now I actually know what's going on' payoff land naturally."
+      "id": "psychopath_observation_v2",
+      "score": 6,
+      "reason": "The third-person admiration mechanic and escalating negation list can slot in the alternatives/competitors naturally, but the 'vulgar verb phrase like a psychopath' payoff demands an edgy, shareable irreverence that clashes with Oura's calm, grounded tone, requiring real bending to land without feeling off-brand."
     },
     {
       "id": "red_flag_checklist",
       "score": 3,
-      "reason": "The red-flag/green-flag mechanic relies on playful social judgment and dating-culture language, which clashes with Oura's calm, personal, science-backed tone and doesn't naturally map onto the internal, private pain of not knowing why you feel off - that pain is about self-confusion, not vetting something external for flaws."
+      "reason": "The red-flag/green-flag mechanic is built on social vetting and relationship judgment, which is a fundamentally different emotional register than Oura's core pain of quiet bodily confusion and exhaustion — forcing the brand into a listicle callout format would feel glib and misaligned with its calm, grounded, introspective tone."
     },
     {
       "id": "delusional_confidence",
       "score": 2,
-      "reason": "The mechanic runs on comedic gap between inflated confidence and a mundane reveal, but Oura's core pain is quiet confusion and fatigue—a calm, science-backed register that fundamentally clashes with the 'delusional brag' emotional frame this format requires to land."
+      "reason": "The delusional confidence mechanic runs on humor and the absurdist gap between a grandiose claim and a mundane reveal, which is the wrong emotional register entirely for a brand whose core pain is quiet uncertainty and exhaustion and whose tone is calm, personal, and grounded."
     }
   ],
-  "selection_reason": "The escalating negation mechanic slots in reasonably well (no guessing, no Fitbit, no sleep journal) and the 'admired for refusing the easy path' framing matches the Oura ICP who rejects surface-level tracking, but the vulgar-psychopath shareability register clashes with Oura's calm, science-backed tone, requiring real bending to land without feeling off-brand.",
+  "selection_reason": "The mechanic of embedding the brand inside an unglamorous discipline list fits Oura naturally — checking your readiness score or HRV is exactly the kind of unsexy, obsessive habit this format celebrates, and the self-deprecating reframe ('not gifted, just boring and consistent') aligns with Oura's calm, grounded tone and the insight that feeling good comes from tracking the invisible, not looking like you're grinding.",
   "variants": [
     {
-      "text": "my sister optimizing her sleep after quitting her night shifts. no fitbit. no apple watch. no sleep journal. no guessing. just her and oura ring. tracking her resting heart rate like a psychopath",
-      "word_count": 33,
+      "text": "realizing i'm disciplined but i'm in bed by 9:30 and skipping the second coffee and checking my hrv before i open email, wearing oura ring instead of my apple watch, and eating the same boring lunch disciplined. not effortlessly cool disciplined",
+      "word_count": 41,
       "length_flagged": false
     },
     {
-      "text": "my roommate rebuilding her whole routine after having a baby. no whoop. no garmin. no sleep journal. no alarm-based guessing. just her and oura ring. logging her readiness score at 5am like a psychopath",
-      "word_count": 34,
+      "text": "realizing i'm boring but i'm asleep before 10 and saying no to the third drink and logging how i felt when i woke up, checking what my oura ring caught overnight, and eating lunch at the same time every day boring. not naturally healthy boring",
+      "word_count": 45,
       "length_flagged": false
     },
     {
-      "text": "my dad obsessing over his recovery after his first marathon. no fitbit. no whoop. no sleep journal. no garmin. just him and oura ring. checking his hrv data at midnight like a psychopath",
-      "word_count": 33,
+      "text": "realizing i'm healthy but i'm in bed before the group chat even slows down and turning down the late coffee and tracking my resting heart rate every morning, reading what oura ring flagged while i slept, and eating the same four things on rotation healthy. not accidentally healthy",
+      "word_count": 48,
       "length_flagged": false
     }
   ],
@@ -57,32 +57,32 @@
     {
       "variant_index": 0,
       "hook_strength": 7,
-      "specificity": 7,
+      "specificity": 8,
       "sounds_human": 8
     },
     {
       "variant_index": 1,
-      "hook_strength": 8,
-      "specificity": 8,
-      "sounds_human": 9
+      "hook_strength": 6,
+      "specificity": 7,
+      "sounds_human": 8
     },
     {
       "variant_index": 2,
-      "hook_strength": 7,
-      "specificity": 8,
-      "sounds_human": 8
+      "hook_strength": 8,
+      "specificity": 9,
+      "sounds_human": 9
     }
   ],
-  "winner_index": 1,
-  "winner_reasoning": "The new baby context immediately earns emotional stakes and makes the sleep-tracking obsession feel viscerally relatable, while 'readiness score at 5am' is a painfully specific, physically grounded detail that lands harder than the other variants' endpoints. It also sounds the most like something you'd actually overhear someone say.",
-  "winner": "my roommate rebuilding her whole routine after having a baby. no whoop. no garmin. no sleep journal. no alarm-based guessing. just her and oura ring. logging her readiness score at 5am like a psychopath",
+  "winner_index": 2,
+  "winner_reasoning": "Variant 2 has the most vivid, physically observable details like 'before the group chat even slows down' and 'the same four things on rotation' that feel lived-in and specific rather than generic. The hook reframes 'healthy' with a culturally relatable tension that creates immediate curiosity and the whole thing sounds like something a real person would actually say out loud.",
+  "winner": "realizing i'm healthy but i'm in bed before the group chat even slows down and turning down the late coffee and tracking my resting heart rate every morning, reading what oura ring flagged while i slept, and eating the same four things on rotation healthy. not accidentally healthy",
   "creator_brief": {
-    "on_screen_text": "my roommate rebuilding her whole routine after having a baby. no whoop. no garmin. no sleep journal. no alarm-based guessing. just her and oura ring. logging her readiness score at 5am like a psychopath",
-    "base_clip": "clips/reaction_01.mp4",
-    "audio_mood": "meme_chaotic",
-    "audio_note": "Override from default tense_build — the script's tone is dry, absurdist humor ('like a psychopath'), so it needs a chaotic meme-style track: a punchy, slightly unhinged lo-fi beat with a comedic drop or viral trending audio feel, mid-tempo with an ironic edge that rewards the punchline.",
-    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line",
-    "performance_note": "Deadpan pride — the creator delivers this like they're genuinely in awe but refuse to show it, eyebrows slightly raised, mouth flat, a single slow nod on 'psychopath' that signals reluctant respect.",
-    "format_reason": "The escalating negation mechanic slots in reasonably well (no guessing, no Fitbit, no sleep journal) and the 'admired for refusing the easy path' framing matches the Oura ICP who rejects surface-level tracking, but the vulgar-psychopath shareability register clashes with Oura's calm, science-backed tone, requiring real bending to land without feeling off-brand."
+    "on_screen_text": "realizing i'm healthy but i'm in bed before the group chat even slows down and turning down the late coffee and tracking my resting heart rate every morning, reading what oura ring flagged while i slept, and eating the same four things on rotation healthy. not accidentally healthy",
+    "base_clip": "clips/reaction_03.mp4",
+    "audio_mood": "sad_reflective",
+    "audio_note": "Keeping the format default — slow, minimal acoustic piano or ambient synth pad in a minor key, around 70 BPM, the kind of quietly melancholic bedroom-hours sound that underscores gentle self-awareness rather than sadness.",
+    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile",
+    "performance_note": "Soft, wry self-recognition — the person delivers this like they're confessing something they've made peace with, a faint half-smile at the corner of the mouth, eyes dropping mid-sentence as if mentally ticking off each life choice, shoulders relaxed but inward.",
+    "format_reason": "The mechanic of embedding the brand inside an unglamorous discipline list fits Oura naturally — checking your readiness score or HRV is exactly the kind of unsexy, obsessive habit this format celebrates, and the self-deprecating reframe ('not gifted, just boring and consistent') aligns with Oura's calm, grounded tone and the insight that feeling good comes from tracking the invisible, not looking like you're grinding."
   }
 }

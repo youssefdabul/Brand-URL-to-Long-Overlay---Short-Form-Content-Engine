@@ -1,30 +1,30 @@
 {
   "brand_name": "Linear",
-  "one_liner": "Linear is a project tracking tool built for software teams that lets AI agents help write, triage, and move work forward alongside the humans doing it.",
-  "niche": "Product and engineering team issue tracking",
-  "icp": "Software engineers and product managers at fast-moving tech companies who ship code regularly and want less time spent on coordination overhead",
-  "core_pain": "important bugs and reviews get buried under a flood of notifications",
-  "the_hard_way": "switching between Slack threads and spreadsheets to track what needs doing",
+  "one_liner": "Linear is a project tracking tool built for software teams that want to plan, build, and ship products fast — now with AI agents doing a chunk of the work.",
+  "niche": "Product and engineering project management",
+  "icp": "Software engineering and product teams at fast-moving startups and tech companies who care deeply about speed and craft",
+  "core_pain": "buried in noise and losing track of what actually needs shipping",
+  "the_hard_way": "jumping between Slack threads and a messy Jira board",
   "alternatives": [
     "Jira",
-    "a Notion doc",
-    "GitHub Issues"
+    "GitHub Issues",
+    "a Notion doc"
   ],
   "named_competitors": [
     "Jira",
-    "Notion",
-    "Asana"
+    "Asana",
+    "GitHub Issues"
   ],
   "tone": [
-    "direct",
-    "opinionated",
-    "precise"
+    "precise",
+    "confident",
+    "opinionated"
   ],
   "banned_claims": [
-    "eliminates all bugs automatically",
-    "replaces your engineering team",
+    "replaces your entire engineering team",
     "AI writes all your code for you",
-    "works for every type of team or industry",
-    "guarantees faster shipping times"
+    "works for every kind of team",
+    "eliminates all bugs automatically",
+    "guaranteed faster shipping"
   ]
 }

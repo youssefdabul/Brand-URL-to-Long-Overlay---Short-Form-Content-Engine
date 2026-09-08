@@ -1,30 +1,55 @@
 {
   "brand_name": "Monzo",
   "chosen_format": {
-    "id": "red_flag_checklist",
+    "id": "earned_not_gifted",
     "niche_tags": [
       "universal"
     ],
-    "hook_archetype": "escalating_list_callout",
-    "why_it_works": "borrows dating-red-flag language to make vetting feel personal instead of clinical. the list format invites the viewer to self-check against it in real time, and putting the brand as the single green flag at the end flips the whole list without ever pitching it directly",
-    "text_skeleton": "red flags in a {PERSON_TYPE}: {RED_FLAG_1}. {RED_FLAG_2}. {RED_FLAG_3}. {RED_FLAG_4}. green flag: {ACTION_WITH_BRAND}",
-    "base_clip": "clips/reaction_02.mp4",
-    "word_count": 46
+    "hook_archetype": "self_deprecating_reframe",
+    "why_it_works": "opens as a flex then undercuts itself. the list is unglamorous discipline, not talent, so it reads as honest rather than bragging. brand sits inside a habit list as one more boring correct decision. sad audio does the emotional work the text refuses to do",
+    "text_skeleton": "realizing i'm {POSITIVE_ADJECTIVE} but i'm {UNCOOL_HABIT_1} and {UNCOOL_HABIT_2}, {UNCOOL_HABIT_3}, {UNCOOL_HABIT_4}, {ACTION_WITH_BRAND}, and {UNCOOL_HABIT_5} {POSITIVE_ADJECTIVE}. not {ENVIED_TRAIT} {POSITIVE_ADJECTIVE}",
+    "base_clip": "clips/reaction_03.mp4",
+    "word_count": 44,
+    "audio_mood": "sad_reflective",
+    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile"
   },
-  "selection_reason": "The 'red flag checklist' mechanic lets viewers self-audit their own chaotic money habits (checking multiple apps, using spreadsheets) in real time, making the pain feel personal and relational rather than clinical, with Monzo landing as the single green flag payoff — perfectly matching the ICP's desire to feel in control without being directly pitched to.",
+  "format_scores": [
+    {
+      "id": "earned_not_gifted",
+      "score": 8,
+      "reason": "The mechanic of embedding the brand inside a list of unglamorous-but-correct habits fits Monzo's core pain naturally — 'I track every penny with Monzo' slots perfectly as one boring-but-honest habit alongside meal prepping and going to bed early, and the self-deprecating reframe matches Monzo's straight-talking, friendly tone without requiring much bending."
+    },
+    {
+      "id": "red_flag_checklist",
+      "score": 8,
+      "reason": "The 'red flag' self-check mechanic maps naturally onto Monzo's core pain - each red flag can be a recognisable symptom of financial disorganisation (checking multiple apps, mystery spending, end-of-month panic), and the green flag payoff slots in cleanly without a hard sell, needing only minor bending to frame 'a bank' instead of 'a person' as the subject."
+    },
+    {
+      "id": "delusional_confidence",
+      "score": 7,
+      "reason": "The mechanic (delusional confidence → mundane reveal) can slot in naturally because Monzo users genuinely do feel unexpectedly in control of their money, but the brand's reassuring/straight-talking tone slightly resists the self-deprecating absurdist energy the format thrives on, requiring a small bend to make the humor land without undermining trust."
+    },
+    {
+      "id": "psychopath_observation_v2",
+      "score": 6,
+      "reason": "The escalating negation list maps reasonably well onto Monzo's 'the hard way' (multiple apps, spreadsheets) and the alternatives list fills the slots naturally, but the 'admired for refusing the easy path' mechanic inverts Monzo's emotional register — the brand wants users to be relieved they found the easy path, not celebrated for white-knuckling chaos, so the format's core admiration mechanic has to be bent to work as gentle absurdist mockery rather than genuine third-person praise."
+    }
+  ],
+  "selection_reason": "The mechanic of embedding the brand inside a list of unglamorous-but-correct habits fits Monzo's core pain naturally — 'I track every penny with Monzo' slots perfectly as one boring-but-honest habit alongside meal prepping and going to bed early, and the self-deprecating reframe matches Monzo's straight-talking, friendly tone without requiring much bending.",
   "variants": [
     {
-      "text": "red flags in a housemate: splitting rent through a notes app. no idea what they spent last weekend. checks three banking apps to find a tenner. still uses their barclays because they never got around to it. green flag: caught her sorting her monzo pots at the kitchen table on payday",
+      "text": "realizing i'm financially responsible but i'm checking revolut and barclays every morning and paying myself back in notes app screenshots, splitting bills on a spreadsheet, moving money into monzo pots mid-payday, and googling \"where did my money go\" financially responsible. not effortlessly financially responsible",
+      "word_count": 44,
+      "length_flagged": false
+    },
+    {
+      "text": "realizing i'm careful with money but i'm cross-referencing three apps and keeping a notes app tab open all month, rounding up receipts in my head, moving wages into monzo pots on payday, and still texting my flatmate asking what we owe each other careful with money. not naturally careful with money",
       "word_count": 51,
-      "length_flagged": false
+      "length_flagged": true,
+      "length_flag_reason": "51 words vs target 44 (+/-15% band: 37-51); closest of 2 attempts, kept rather than looping further"
     },
     {
-      "text": "red flags in a flatmate: pays you back through revolut, cash app, whatever works. no savings pot, no plan. asks to borrow twenty quid four days before payday. genuinely cannot tell you where last month went. green flag: him labeling his monzo pots at midnight before a holiday",
-      "word_count": 48,
-      "length_flagged": false
-    },
-    {
-      "text": "red flags in a partner: splits bills on a spreadsheet. asks starling or revolut, whoever has signal. no idea what they spent on food last month. overdraft two weeks in, every month. green flag: her moving money into monzo pots before the rent even lands",
+      "text": "realizing i'm good with money but i'm screenshot-ing my chase balance every sunday and colour-coding a google sheet, tracking every coffee manually, moving my paycheck into monzo pots by category, and panic-checking my balance at the till good with money. not naturally good with money",
       "word_count": 45,
       "length_flagged": false
     }
@@ -32,24 +57,33 @@
   "scores": [
     {
       "variant_index": 0,
-      "hook_strength": 7,
+      "hook_strength": 8,
       "specificity": 9,
       "sounds_human": 9
     },
     {
       "variant_index": 1,
-      "hook_strength": 7,
-      "specificity": 8,
-      "sounds_human": 9
-    },
-    {
-      "variant_index": 2,
       "hook_strength": 6,
       "specificity": 7,
       "sounds_human": 7
+    },
+    {
+      "variant_index": 2,
+      "hook_strength": 7,
+      "specificity": 9,
+      "sounds_human": 8
     }
   ],
   "winner_index": 0,
-  "winner_reasoning": "Variant 0 stacks the most physically observable, nameable details (notes app, three banking apps, a tenner, Barclays inertia) that feel genuinely overheard rather than written, and the kitchen-table payday image lands as a warm, specific payoff. The specificity of 'checks three banking apps to find a tenner' is the sharpest single line across all three variants.",
-  "winner": "red flags in a housemate: splitting rent through a notes app. no idea what they spent last weekend. checks three banking apps to find a tenner. still uses their barclays because they never got around to it. green flag: caught her sorting her monzo pots at the kitchen table on payday"
+  "winner_reasoning": "Variant 0 lands the hardest because 'financially responsible' is a stronger, more ironic phrase to undercut than 'careful with money,' and the specific combo of Revolut, Barclays, Notes app screenshots, and Monzo pots feels like an instantly recognisable, lived-in routine rather than a generic list. The repeated payoff line hits with the most comedic rhythm of the three.",
+  "winner": "realizing i'm financially responsible but i'm checking revolut and barclays every morning and paying myself back in notes app screenshots, splitting bills on a spreadsheet, moving money into monzo pots mid-payday, and googling \"where did my money go\" financially responsible. not effortlessly financially responsible",
+  "creator_brief": {
+    "on_screen_text": "realizing i'm financially responsible but i'm checking revolut and barclays every morning and paying myself back in notes app screenshots, splitting bills on a spreadsheet, moving money into monzo pots mid-payday, and googling \"where did my money go\" financially responsible. not effortlessly financially responsible",
+    "base_clip": "clips/reaction_03.mp4",
+    "audio_mood": "sad_reflective",
+    "audio_note": "Keeping the format default: slow, lo-fi piano or muted acoustic guitar in a minor key, gentle and unhurried, the kind of track that soundtracks a quiet moment of self-aware defeat — matches Monzo's straight-talking, relatable tone without being dramatic.",
+    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile",
+    "performance_note": "Soft, self-aware embarrassment — the kind where you catch yourself mid-habit and can't even be mad; shows as a slow exhale through the nose, eyes drifting slightly off-camera mid-list, and a faint tired smile that says 'yeah, I know'.",
+    "format_reason": "The mechanic of embedding the brand inside a list of unglamorous-but-correct habits fits Monzo's core pain naturally — 'I track every penny with Monzo' slots perfectly as one boring-but-honest habit alongside meal prepping and going to bed early, and the self-deprecating reframe matches Monzo's straight-talking, friendly tone without requiring much bending."
+  }
 }

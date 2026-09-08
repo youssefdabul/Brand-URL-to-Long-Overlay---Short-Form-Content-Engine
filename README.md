@@ -32,14 +32,16 @@ Output is printed to stdout and saved to `out/<brand>_profile.json` and `out/<br
 
 ## Brands tested
 
-**Notion**
-> red flags in a coworker: tracks tasks in a dead confluence page. pastes action items into slack and forgets them. has thirty-one browser tabs open every standup. emails you a doc titled "use this one". green flag: him quietly rebuilding the onboarding flow in notion before anyone asked
+Different brands select different formats — the format isn't fixed, it's scored per brand each run.
 
-**Monzo**
-> red flags in a housemate: splitting rent through a notes app. no idea what they spent last weekend. checks three banking apps to find a tenner. still uses their barclays because they never got around to it. green flag: caught her sorting her monzo pots at the kitchen table on payday
+**Notion** — format: `earned_not_gifted`
+> realizing i'm organized but i'm leaving comments in slack, pasting the same brief into google docs every monday, missing standups, searching confluence for a link i already opened, rebuilding her team wiki in notion at midnight, and exhausted organized. not naturally organized
 
-**Oura Ring**
-> my roommate rebuilding her whole routine after having a baby. no whoop. no garmin. no sleep journal. no alarm-based guessing. just her and oura ring. logging her readiness score at 5am like a psychopath
+**Monzo** — format: `earned_not_gifted`
+> realizing i'm alright with money but i'm logging into chase on my lunch break and building a spreadsheet i never finish, transferring twenty quid to savings by hand, forgetting and moving it back, watching monzo ping me every time i spend, and still quietly-stressed alright. not born alright
 
-**Linear**
+**Oura Ring** — format: `earned_not_gifted`
+> realizing i'm healthy but i'm in bed before the group chat even slows down and turning down the late coffee and tracking my resting heart rate every morning, reading what oura ring flagged while i slept, and eating the same four things on rotation healthy. not accidentally healthy
+
+**Linear** — format: `red_flag_checklist`
 > red flags in a product manager: sprint board lives in a jira ticket graveyard. pings six people in slack to find who owns a bug. roadmap is a google sheet with three broken formulas. marks everything priority one. green flag: seen letting linear sort the incoming bug queue while the standup is still loading

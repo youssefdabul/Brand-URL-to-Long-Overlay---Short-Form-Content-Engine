@@ -1,30 +1,31 @@
 {
   "brand_name": "Notion",
-  "one_liner": "Notion is a workspace where teams write, plan, and build things together, with AI now handling a lot of the busywork automatically.",
-  "niche": "All-in-one productivity and knowledge management for teams",
-  "icp": "Teams at fast-moving companies who are drowning in scattered docs, messy projects, and meetings nobody can remember",
-  "core_pain": "can never find that doc someone shared three weeks ago",
-  "the_hard_way": "searching through Slack, Google Drive, and email tabs",
+  "one_liner": "Notion is a workspace where your team can write docs, manage projects, and now use AI to search, automate, and build little tools that do the work for you.",
+  "niche": "AI-powered team workspace and knowledge management",
+  "icp": "Small to mid-sized teams who want one place to store everything they know, track what they're working on, and cut down on the boring repetitive stuff",
+  "core_pain": "drowning in tabs and still can't find that one doc",
+  "the_hard_way": "copying notes between five different apps",
   "alternatives": [
     "Google Docs",
-    "Confluence",
-    "a Slack channel"
+    "Jira",
+    "a shared Slack channel"
   ],
   "named_competitors": [
     "Confluence",
     "Asana",
-    "Monday.com",
-    "ClickUp"
+    "ClickUp",
+    "Coda"
   ],
   "tone": [
     "calm",
-    "thoughtful",
-    "confident"
+    "clever",
+    "approachable"
   ],
   "banned_claims": [
-    "replaces every tool your team uses",
-    "guaranteed to make your team more productive",
-    "AI that never makes mistakes",
-    "works perfectly for every company size"
+    "replaces your entire tech stack",
+    "makes your team twice as fast",
+    "AI that thinks like a human",
+    "zero learning curve",
+    "enterprise-grade security solves all compliance needs"
   ]
 }

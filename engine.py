@@ -127,7 +127,12 @@ effortless, unlock, supercharge, elevate, streamline, leverage, solution, \
 empower.
 6. Every slot must be filled with something physically observable or \
 nameable - a concrete action, object, or named thing. No abstractions. \
-Good: "with 40 tabs open". Bad: "struggling with disorganisation".
+Good: "with 40 tabs open". Bad: "struggling with disorganisation". A slot \
+whose name contains HABIT (e.g. {UNCOOL_HABIT_1}) must always be a \
+concrete action or behavior - a short clause describing something someone \
+does - never a single adjective or trait word, even when it sits right \
+next to a trait slot like {POSITIVE_ADJECTIVE}. Good: "eating the same \
+four things on rotation". Bad: "boring" (that's a trait, not a habit).
 7. The brand name appears exactly once, as a specific action a specific \
 person is caught doing in the middle of their own life - never as a \
 recommendation, a conclusion, or the moral of the story. It must read like \

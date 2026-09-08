@@ -1,89 +1,88 @@
 {
   "brand_name": "Linear",
   "chosen_format": {
-    "id": "red_flag_checklist",
+    "id": "psychopath_observation_v2",
     "niche_tags": [
       "universal"
     ],
-    "hook_archetype": "escalating_list_callout",
-    "why_it_works": "borrows dating-red-flag language to make vetting feel personal instead of clinical. the list format invites the viewer to self-check against it in real time, and putting the brand as the single green flag at the end flips the whole list without ever pitching it directly",
-    "text_skeleton": "red flags in a {PERSON_TYPE}: {RED_FLAG_1}. {RED_FLAG_2}. {RED_FLAG_3}. {RED_FLAG_4}. green flag: {ACTION_WITH_BRAND}",
-    "base_clip": "clips/reaction_02.mp4",
-    "word_count": 46,
-    "audio_mood": "meme_chaotic",
-    "visual_mechanic": "counting off red flags on raised fingers, exaggerated unimpressed head tilt"
+    "hook_archetype": "third_person_admiration",
+    "why_it_works": "escalating negation list builds rhythm and each 'no' raises the stakes. the vulgar verb phrase before the payoff is what makes it shareable. subject is admired for refusing the easy path, so the product reads as the sane option without being pitched",
+    "text_skeleton": "my {RELATION} {DOING_THE_THING} after {LIFE_DECISION}. no {ALT_1}. no {ALT_2}. no {ALT_3}. no {COMPETITOR}. just {PRONOUN} and {LAST_RESORT_TOOL}. {VULGAR_VERB_PHRASE} like a psychopath",
+    "base_clip": "clips/reaction_01.mp4",
+    "word_count": 38,
+    "audio_mood": "tense_build",
+    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line"
   },
   "format_scores": [
     {
-      "id": "red_flag_checklist",
+      "id": "psychopath_observation_v2",
       "score": 7,
-      "reason": "The self-check mechanic maps naturally onto the pain of buried bugs and Slack-switching chaos—engineers can immediately recognize each red flag in their own workflow—but the dating-language emotional register needs slight bending since Linear's tone is direct and opinionated rather than playful or personal."
+      "reason": "The escalating negation list maps cleanly onto Linear's named competitors (Jira, Asana, Notion) and the 'admired for refusing the easy path' mechanic fits the opinionated, craft-focused ICP, but the vulgar-psychopath register skews irreverent in a way that slightly clashes with Linear's precise, confident tone rather than fitting naturally."
     },
     {
-      "id": "psychopath_observation_v2",
-      "score": 6,
-      "reason": "The escalating negation list maps reasonably onto the alternatives (Jira, Notion, Slack threads) and the 'admired for refusing the easy path' mechanic fits Linear's opinionated tone, but the vulgar/psychopath framing clashes slightly with Linear's precise, professional register and the pain (buried bugs/notifications) is less a lifestyle-choice story than an operational frustration, requiring the format to be bent to feel authentic."
+      "id": "red_flag_checklist",
+      "score": 7,
+      "reason": "The self-check list mechanic maps naturally onto the chaos of bad tooling (Slack threads, messy Jira boards as red flags) and the brand's opinionated, confident tone fits the judgmental register, but 'dating red flag' framing feels slightly playful for a brand that skews precise and craft-focused, requiring a small tonal bend to land without feeling off-brand."
     },
     {
       "id": "delusional_confidence",
-      "score": 6,
-      "reason": "The gap-between-claim-and-mundane-reveal mechanic can work (e.g., 'thought I could ship a whole product solo… used Linear's AI triage… turns out I just had 47 buried bugs'), but the core pain of buried notifications and Slack/spreadsheet chaos is anxiety-driven rather than confidence-driven, so the 'delusional confidence' emotional register requires meaningful bending to feel authentic to Linear's direct, opinionated tone."
+      "score": 7,
+      "reason": "The humor mechanic of delusional confidence followed by a mundane reveal fits Linear's confident, opinionated tone and the pain of Jira chaos, but the 'small and mundane' reveal undercuts Linear's positioning as a serious craft tool — it needs slight bending to keep the punchline from trivializing the shipping-speed story."
     },
     {
       "id": "earned_not_gifted",
-      "score": 3,
-      "reason": "The self-deprecating 'unglamorous discipline' mechanic centers on personal lifestyle habits and humble-brag identity, but Linear's core pain is team coordination chaos and buried notifications—a professional workflow problem that doesn't map naturally onto the introspective, individualistic emotional register this format requires."
+      "score": 5,
+      "reason": "The 'boring disciplined habits' mechanic can slot Linear in as one unglamorous correct decision (e.g., 'actually triaging the backlog in Linear'), but the self-deprecating flex framing is misaligned with Linear's confident, opinionated tone and doesn't directly surface the core pain of being buried in noise — it would need noticeable bending to feel authentic rather than forced."
     }
   ],
-  "selection_reason": "The self-check mechanic maps naturally onto the pain of buried bugs and Slack-switching chaos—engineers can immediately recognize each red flag in their own workflow—but the dating-language emotional register needs slight bending since Linear's tone is direct and opinionated rather than playful or personal.",
+  "selection_reason": "The escalating negation list maps cleanly onto Linear's named competitors (Jira, Asana, Notion) and the 'admired for refusing the easy path' mechanic fits the opinionated, craft-focused ICP, but the vulgar-psychopath register skews irreverent in a way that slightly clashes with Linear's precise, confident tone rather than fitting naturally.",
   "variants": [
     {
-      "text": "red flags in a tech lead: still triaging bugs inside a jira board from 2019. pings the team in slack instead of updating the ticket. tracks sprint progress in a google sheet. hasn't closed a p0 in three weeks. green flag: caught triaging the backlog in linear at 7am before standup",
-      "word_count": 51,
+      "text": "my cofounder shipping a v2 after a seed round. no slack threads. no notion doc. no github issues. no jira. just her and linear open on two monitors. grinding through the backlog like a psychopath",
+      "word_count": 35,
       "length_flagged": false
     },
     {
-      "text": "red flags in an engineering manager: routes bug reports through a slack thread. keeps the roadmap in a notion doc nobody opens. calls a meeting to ask what's blocked. closes jira tickets by hand every friday. green flag: spotted letting linear triage the overnight alerts before anyone's logged on",
-      "word_count": 49,
+      "text": "my eng lead scoping a rewrite after the cto left. no sticky notes. no asana board. no tangled slack thread. no jira. just him and linear, triaging every open cycle like a psychopath",
+      "word_count": 33,
       "length_flagged": false
     },
     {
-      "text": "red flags in a product manager: sprint board lives in a jira ticket graveyard. pings six people in slack to find who owns a bug. roadmap is a google sheet with three broken formulas. marks everything priority one. green flag: seen letting linear sort the incoming bug queue while the standup is still loading",
-      "word_count": 54,
-      "length_flagged": true,
-      "length_flag_reason": "54 words vs target 46 (+/-15% band: 39-53); closest of 2 attempts, kept rather than looping further"
+      "text": "my roommate rebuilding the whole roadmap after a layoff. no spreadsheet. no notion doc. no github issues. no asana. just her and linear pulled up at midnight, closing out cycles like a psychopath",
+      "word_count": 33,
+      "length_flagged": false
     }
   ],
   "scores": [
     {
       "variant_index": 0,
       "hook_strength": 7,
-      "specificity": 9,
-      "sounds_human": 8
+      "specificity": 8,
+      "sounds_human": 9
     },
     {
       "variant_index": 1,
       "hook_strength": 6,
       "specificity": 7,
-      "sounds_human": 7
+      "sounds_human": 8
     },
     {
       "variant_index": 2,
-      "hook_strength": 7,
-      "specificity": 9,
+      "hook_strength": 8,
+      "specificity": 8,
       "sounds_human": 9
     }
   ],
   "winner_index": 2,
-  "winner_reasoning": "Variant 2 lands the hardest because 'google sheet with three broken formulas' and 'marks everything priority one' are painfully specific and universally recognized behaviors that feel lived-in, not written. The green flag payoff — 'while the standup is still loading' — earns a laugh and makes the product feel fast without saying fast.",
-  "winner": "red flags in a product manager: sprint board lives in a jira ticket graveyard. pings six people in slack to find who owns a bug. roadmap is a google sheet with three broken formulas. marks everything priority one. green flag: seen letting linear sort the incoming bug queue while the standup is still loading",
+  "winner_reasoning": "The 'midnight' detail makes the scene physically observable and emotionally resonant in a way the other variants lack, and 'rebuilding the whole roadmap after a layoff' creates immediate stakes that pull you in faster. It's the most cinematic and human of the three.",
+  "winner": "my roommate rebuilding the whole roadmap after a layoff. no spreadsheet. no notion doc. no github issues. no asana. just her and linear pulled up at midnight, closing out cycles like a psychopath",
   "creator_brief": {
-    "on_screen_text": "red flags in a product manager: sprint board lives in a jira ticket graveyard. pings six people in slack to find who owns a bug. roadmap is a google sheet with three broken formulas. marks everything priority one. green flag: seen letting linear sort the incoming bug queue while the standup is still loading",
-    "base_clip": "clips/reaction_02.mp4",
-    "audio_mood": "meme_chaotic",
-    "audio_note": "Fast-cut, dry-sarcastic lo-fi with a punchy snare and slightly off-kilter synth stabs — like a corporate satire sketch underscore at ~130 BPM in a minor key; this is the format's default mood, kept because the red-flag countdown format and tech-worker in-jokes are pure meme energy that matches Linear's opinionated, no-BS brand voice.",
-    "visual_mechanic": "counting off red flags on raised fingers, exaggerated unimpressed head tilt",
-    "performance_note": "Weaponized secondhand embarrassment — deadpan disgust at the red flags, delivered with each finger raised slowly and a flat, barely-blinking stare at camera, then a subtle smug exhale and half-smile on the green flag reveal.",
-    "format_reason": "The self-check mechanic maps naturally onto the pain of buried bugs and Slack-switching chaos—engineers can immediately recognize each red flag in their own workflow—but the dating-language emotional register needs slight bending since Linear's tone is direct and opinionated rather than playful or personal."
+    "on_screen_text": "my roommate rebuilding the whole roadmap after a layoff. no spreadsheet. no notion doc. no github issues. no asana. just her and linear pulled up at midnight, closing out cycles like a psychopath",
+    "base_clip": "clips/reaction_01.mp4",
+    "audio_mood": "tense_build",
+    "audio_note": "Keeping the format default — a minimal, dark electronic pulse with a slow BPM build, sparse hi-hats, and a low synth drone in a minor key, like a late-night coding session soundtrack that quietly escalates; no drop, just sustained pressure.",
+    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line",
+    "performance_note": "Unblinking reverence shading into mild unhinged admiration — eyes wide and fixed on camera, one corner of the mouth almost smiling, head completely still until the single slow nod on 'psychopath'.",
+    "format_reason": "The escalating negation list maps cleanly onto Linear's named competitors (Jira, Asana, Notion) and the 'admired for refusing the easy path' mechanic fits the opinionated, craft-focused ICP, but the vulgar-psychopath register skews irreverent in a way that slightly clashes with Linear's precise, confident tone rather than fitting naturally."
   }
 }
