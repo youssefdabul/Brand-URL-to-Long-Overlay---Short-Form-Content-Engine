@@ -1,14 +1,14 @@
 {
   "brand_name": "Oura Ring",
-  "one_liner": "A small ring you wear to bed that tells you how well you slept, how stressed you are, and what your body is actually doing 24 hours a day.",
-  "niche": "Wearable health and sleep tracking",
-  "icp": "Health-conscious adults who want to understand their body better without going to a doctor every time something feels off",
-  "core_pain": "no idea why she wakes up exhausted every single morning",
-  "the_hard_way": "guessing how rested she feels when she wakes up",
+  "one_liner": "A ring you wear 24/7 that tracks your sleep, stress, heart health, and activity and tells you what it all means for your body.",
+  "niche": "Wearable health tracking",
+  "icp": "Health-conscious adults who want to understand what's actually going on inside their body, not just count steps",
+  "core_pain": "no idea why you feel tired or off today",
+  "the_hard_way": "guessing based on how groggy she feels",
   "alternatives": [
     "a Fitbit",
     "an Apple Watch",
-    "a sleep diary"
+    "a sleep journal"
   ],
   "named_competitors": [
     "Fitbit",
@@ -18,14 +18,14 @@
   ],
   "tone": [
     "calm",
-    "grounded",
-    "personal"
+    "personal",
+    "science-backed"
   ],
   "banned_claims": [
     "replaces your doctor",
-    "diagnoses health conditions",
-    "guarantees better sleep",
+    "diagnoses any condition",
+    "guarantees better health",
     "prevents disease",
-    "monitors medical conditions"
+    "medically certified treatment"
   ]
 }

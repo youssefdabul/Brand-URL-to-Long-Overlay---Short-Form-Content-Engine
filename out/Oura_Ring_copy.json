@@ -1,88 +1,88 @@
 {
   "brand_name": "Oura Ring",
   "chosen_format": {
-    "id": "earned_not_gifted",
+    "id": "psychopath_observation_v2",
     "niche_tags": [
       "universal"
     ],
-    "hook_archetype": "self_deprecating_reframe",
-    "why_it_works": "opens as a flex then undercuts itself. the list is unglamorous discipline, not talent, so it reads as honest rather than bragging. brand sits inside a habit list as one more boring correct decision. sad audio does the emotional work the text refuses to do",
-    "text_skeleton": "realizing i'm {POSITIVE_TRAIT} but i'm {UNCOOL_HABIT_1} and {UNCOOL_HABIT_2}, {UNCOOL_HABIT_3}, {UNCOOL_HABIT_4}, {ACTION_WITH_BRAND}, and {UNCOOL_HABIT_5} {POSITIVE_TRAIT}. not {ENVIED_TRAIT} {POSITIVE_TRAIT}",
-    "base_clip": "clips/reaction_03.mp4",
-    "word_count": 44,
-    "audio_mood": "sad_reflective",
-    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile"
+    "hook_archetype": "third_person_admiration",
+    "why_it_works": "escalating negation list builds rhythm and each 'no' raises the stakes. the vulgar verb phrase before the payoff is what makes it shareable. subject is admired for refusing the easy path, so the product reads as the sane option without being pitched",
+    "text_skeleton": "my {RELATION} {DOING_THE_THING} after {LIFE_DECISION}. no {ALT_1}. no {ALT_2}. no {ALT_3}. no {COMPETITOR}. just {PRONOUN} and {LAST_RESORT_TOOL}. {VULGAR_VERB_PHRASE} like a psychopath",
+    "base_clip": "clips/reaction_01.mp4",
+    "word_count": 38,
+    "audio_mood": "tense_build",
+    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line"
   },
   "format_scores": [
     {
+      "id": "psychopath_observation_v2",
+      "score": 6,
+      "reason": "The escalating negation mechanic slots in reasonably well (no guessing, no Fitbit, no sleep journal) and the 'admired for refusing the easy path' framing matches the Oura ICP who rejects surface-level tracking, but the vulgar-psychopath shareability register clashes with Oura's calm, science-backed tone, requiring real bending to land without feeling off-brand."
+    },
+    {
       "id": "earned_not_gifted",
-      "score": 7,
-      "reason": "The 'unglamorous discipline habit list' mechanic fits well because Oura's core user IS someone doing boring-but-correct sleep hygiene decisions, so placing the ring inside that list feels authentic and grounded—but the format's emotional engine (self-deprecating flex about discipline) doesn't directly address the exhaustion mystery pain point or the 'guessing' the_hard_way, it just normalizes the habit rather than surfacing the insight gap."
+      "score": 5,
+      "reason": "The format's mechanic—flexing discipline through unglamorous habits—can slot Oura in as one boring-but-correct decision (e.g., 'checking my readiness score before deciding to push hard'), but the core pain of 'no idea why you feel tired or off' is about confusion and lack of insight, not undisciplined laziness, so the self-deprecating discipline-flex emotional register only partially matches and requires moderate bending to make Oura's 'now I actually know what's going on' payoff land naturally."
     },
     {
       "id": "red_flag_checklist",
-      "score": 7,
-      "reason": "The self-check list mechanic maps well onto the ICP's daily guessing game about exhaustion—each red flag can mirror a symptom she brushes off—and the single green flag ending positions Oura as the answer without a hard pitch, but the dating-red-flag framing feels slightly off-tone from the brand's calm, grounded voice and the pain is about body data ignorance rather than vetting a 'person type,' requiring more creative stretching to land naturally."
-    },
-    {
-      "id": "psychopath_observation_v2",
-      "score": 6,
-      "reason": "The escalating negation list maps reasonably well to rejecting guessing and alternatives (Fitbit, sleep diary, etc.) and the 'psychopath' admiration frame fits someone obsessively tracking sleep data, but the vulgar/edgy shareability mechanic clashes with Oura's calm, grounded tone and the core pain (waking up exhausted) is personal and anxious rather than a bold life decision that earns admiration."
+      "score": 3,
+      "reason": "The red-flag/green-flag mechanic relies on playful social judgment and dating-culture language, which clashes with Oura's calm, personal, science-backed tone and doesn't naturally map onto the internal, private pain of not knowing why you feel off - that pain is about self-confusion, not vetting something external for flaws."
     },
     {
       "id": "delusional_confidence",
-      "score": 6,
-      "reason": "The humor mechanic relies on a comedic gap between a delusional claim and a mundane reveal, which can fit Oura (e.g., 'thought I could finally figure out why I'm always exhausted, put on a ring, now I know my HRV tanked at 2am') but the brand's calm, grounded tone resists the self-deprecating absurdity the format needs to land, and the core pain of unexplained exhaustion is real enough that trivializing it with a joke undercuts the emotional resonance that typically converts for this ICP."
+      "score": 2,
+      "reason": "The mechanic runs on comedic gap between inflated confidence and a mundane reveal, but Oura's core pain is quiet confusion and fatigue—a calm, science-backed register that fundamentally clashes with the 'delusional brag' emotional frame this format requires to land."
     }
   ],
-  "selection_reason": "The 'unglamorous discipline habit list' mechanic fits well because Oura's core user IS someone doing boring-but-correct sleep hygiene decisions, so placing the ring inside that list feels authentic and grounded—but the format's emotional engine (self-deprecating flex about discipline) doesn't directly address the exhaustion mystery pain point or the 'guessing' the_hard_way, it just normalizes the habit rather than surfacing the insight gap.",
+  "selection_reason": "The escalating negation mechanic slots in reasonably well (no guessing, no Fitbit, no sleep journal) and the 'admired for refusing the easy path' framing matches the Oura ICP who rejects surface-level tracking, but the vulgar-psychopath shareability register clashes with Oura's calm, science-backed tone, requiring real bending to land without feeling off-brand.",
   "variants": [
     {
-      "text": "realizing i'm a morning person but i'm in bed by 9:30 and tracking my hrv, skipping alcohol on weekdays, checking my readiness score before i check my phone, wearing my oura ring instead of my apple watch, and asleep before midnight morning person. not a fun morning person",
-      "word_count": 48,
+      "text": "my sister optimizing her sleep after quitting her night shifts. no fitbit. no apple watch. no sleep journal. no guessing. just her and oura ring. tracking her resting heart rate like a psychopath",
+      "word_count": 33,
       "length_flagged": false
     },
     {
-      "text": "realizing i'm well-rested but i'm saying no to late nights and cutting caffeine after 2pm, in bed before the 10pm news, checking my recovery score before i sit up, wearing my oura ring not my whoop, and asleep by 9:45 well-rested. not effortlessly well-rested",
-      "word_count": 44,
+      "text": "my roommate rebuilding her whole routine after having a baby. no whoop. no garmin. no sleep journal. no alarm-based guessing. just her and oura ring. logging her readiness score at 5am like a psychopath",
+      "word_count": 34,
       "length_flagged": false
     },
     {
-      "text": "realizing i'm a healthy person but i'm lights out by 9pm and skipping the group chat after 8, eating dinner before 7, reading my oura ring sleep data before i get up, ditching my fitbit for good, and napping on sundays healthy person. not a fun healthy person",
-      "word_count": 48,
+      "text": "my dad obsessing over his recovery after his first marathon. no fitbit. no whoop. no sleep journal. no garmin. just him and oura ring. checking his hrv data at midnight like a psychopath",
+      "word_count": 33,
       "length_flagged": false
     }
   ],
   "scores": [
     {
       "variant_index": 0,
+      "hook_strength": 7,
+      "specificity": 7,
+      "sounds_human": 8
+    },
+    {
+      "variant_index": 1,
       "hook_strength": 8,
       "specificity": 8,
       "sounds_human": 9
     },
     {
-      "variant_index": 1,
-      "hook_strength": 6,
-      "specificity": 7,
-      "sounds_human": 7
-    },
-    {
       "variant_index": 2,
       "hook_strength": 7,
-      "specificity": 7,
+      "specificity": 8,
       "sounds_human": 8
     }
   ],
-  "winner_index": 0,
-  "winner_reasoning": "Variant 0 lands hardest because 'morning person' is a universally relatable identity with instant cultural baggage, and the punchline 'not a fun morning person' pays it off with self-aware humor that feels genuinely spoken. The specific behaviors—HRV tracking, readiness score before phone, Oura over Apple Watch—are concrete and stackable in a way that builds comedic rhythm without losing authenticity.",
-  "winner": "realizing i'm a morning person but i'm in bed by 9:30 and tracking my hrv, skipping alcohol on weekdays, checking my readiness score before i check my phone, wearing my oura ring instead of my apple watch, and asleep before midnight morning person. not a fun morning person",
+  "winner_index": 1,
+  "winner_reasoning": "The new baby context immediately earns emotional stakes and makes the sleep-tracking obsession feel viscerally relatable, while 'readiness score at 5am' is a painfully specific, physically grounded detail that lands harder than the other variants' endpoints. It also sounds the most like something you'd actually overhear someone say.",
+  "winner": "my roommate rebuilding her whole routine after having a baby. no whoop. no garmin. no sleep journal. no alarm-based guessing. just her and oura ring. logging her readiness score at 5am like a psychopath",
   "creator_brief": {
-    "on_screen_text": "realizing i'm a morning person but i'm in bed by 9:30 and tracking my hrv, skipping alcohol on weekdays, checking my readiness score before i check my phone, wearing my oura ring instead of my apple watch, and asleep before midnight morning person. not a fun morning person",
-    "base_clip": "clips/reaction_03.mp4",
-    "audio_mood": "sad_reflective",
-    "audio_note": "Keeping the format default — a soft, lo-fi piano loop in a minor key, slow tempo around 70 BPM, with a faint ambient hum underneath; melancholy but self-aware, matching the 'reluctant optimization' tone of the script.",
-    "visual_mechanic": "eyes drop from camera, slow head shake, faint resigned smile",
-    "performance_note": "Dry, deadpan self-acceptance — the creator delivers this like they've fully processed the loss of their fun social life and made peace with it, shown by a slow, almost proud head nod that tips into a resigned eye-roll at 'not a fun morning person.'",
-    "format_reason": "The 'unglamorous discipline habit list' mechanic fits well because Oura's core user IS someone doing boring-but-correct sleep hygiene decisions, so placing the ring inside that list feels authentic and grounded—but the format's emotional engine (self-deprecating flex about discipline) doesn't directly address the exhaustion mystery pain point or the 'guessing' the_hard_way, it just normalizes the habit rather than surfacing the insight gap."
+    "on_screen_text": "my roommate rebuilding her whole routine after having a baby. no whoop. no garmin. no sleep journal. no alarm-based guessing. just her and oura ring. logging her readiness score at 5am like a psychopath",
+    "base_clip": "clips/reaction_01.mp4",
+    "audio_mood": "meme_chaotic",
+    "audio_note": "Override from default tense_build — the script's tone is dry, absurdist humor ('like a psychopath'), so it needs a chaotic meme-style track: a punchy, slightly unhinged lo-fi beat with a comedic drop or viral trending audio feel, mid-tempo with an ironic edge that rewards the punchline.",
+    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line",
+    "performance_note": "Deadpan pride — the creator delivers this like they're genuinely in awe but refuse to show it, eyebrows slightly raised, mouth flat, a single slow nod on 'psychopath' that signals reluctant respect.",
+    "format_reason": "The escalating negation mechanic slots in reasonably well (no guessing, no Fitbit, no sleep journal) and the 'admired for refusing the easy path' framing matches the Oura ICP who rejects surface-level tracking, but the vulgar-psychopath shareability register clashes with Oura's calm, science-backed tone, requiring real bending to land without feeling off-brand."
   }
 }

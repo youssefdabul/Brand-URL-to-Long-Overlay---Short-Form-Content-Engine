@@ -1,64 +1,65 @@
 {
   "brand_name": "Linear",
   "chosen_format": {
-    "id": "psychopath_observation_v2",
+    "id": "red_flag_checklist",
     "niche_tags": [
       "universal"
     ],
-    "hook_archetype": "third_person_admiration",
-    "why_it_works": "escalating negation list builds rhythm and each 'no' raises the stakes. the vulgar verb phrase before the payoff is what makes it shareable. subject is admired for refusing the easy path, so the product reads as the sane option without being pitched",
-    "text_skeleton": "my {RELATION} {DOING_THE_THING} after {LIFE_DECISION}. no {ALT_1}. no {ALT_2}. no {ALT_3}. no {COMPETITOR}. just {PRONOUN} and {LAST_RESORT_TOOL}. {VULGAR_VERB_PHRASE} like a psychopath",
-    "base_clip": "clips/reaction_01.mp4",
-    "word_count": 38,
-    "audio_mood": "tense_build",
-    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line"
+    "hook_archetype": "escalating_list_callout",
+    "why_it_works": "borrows dating-red-flag language to make vetting feel personal instead of clinical. the list format invites the viewer to self-check against it in real time, and putting the brand as the single green flag at the end flips the whole list without ever pitching it directly",
+    "text_skeleton": "red flags in a {PERSON_TYPE}: {RED_FLAG_1}. {RED_FLAG_2}. {RED_FLAG_3}. {RED_FLAG_4}. green flag: {ACTION_WITH_BRAND}",
+    "base_clip": "clips/reaction_02.mp4",
+    "word_count": 46,
+    "audio_mood": "meme_chaotic",
+    "visual_mechanic": "counting off red flags on raised fingers, exaggerated unimpressed head tilt"
   },
   "format_scores": [
     {
-      "id": "psychopath_observation_v2",
-      "score": 7,
-      "reason": "The 'no Jira, no Asana, no Notion' escalating negation list maps cleanly onto the named competitors and the 'just them and Linear' payoff frames the product as the sane-but-admired choice, though the 'psychopath' admiration framing slightly undercuts Linear's sharp, no-nonsense tone by making the user seem reckless rather than disciplined."
-    },
-    {
       "id": "red_flag_checklist",
       "score": 7,
-      "reason": "The self-check list mechanic maps well onto Linear's core pain—engineers can tick off each Jira-style dysfunction (manual ticket copying, buried backlogs, no shipping velocity) as a red flag in a project management tool, making the brand's green flag payoff feel earned rather than pitched, though the dating-language framing is a mild tonal stretch for Linear's sharp, no-nonsense voice."
+      "reason": "The self-check mechanic maps naturally onto the pain of buried bugs and Slack-switching chaos—engineers can immediately recognize each red flag in their own workflow—but the dating-language emotional register needs slight bending since Linear's tone is direct and opinionated rather than playful or personal."
+    },
+    {
+      "id": "psychopath_observation_v2",
+      "score": 6,
+      "reason": "The escalating negation list maps reasonably onto the alternatives (Jira, Notion, Slack threads) and the 'admired for refusing the easy path' mechanic fits Linear's opinionated tone, but the vulgar/psychopath framing clashes slightly with Linear's precise, professional register and the pain (buried bugs/notifications) is less a lifestyle-choice story than an operational frustration, requiring the format to be bent to feel authentic."
     },
     {
       "id": "delusional_confidence",
-      "score": 7,
-      "reason": "The 'delusional confidence gap' mechanic maps well to Linear's core pain because the joke writes itself — claiming you'll ship a product in a week while you're still manually copying Slack messages into Jira is exactly the absurd disconnect the format needs, and the reveal (Linear's AI handling the grunt work) lands in the same beat as the brand mention, hitting the_hard_way directly."
+      "score": 6,
+      "reason": "The gap-between-claim-and-mundane-reveal mechanic can work (e.g., 'thought I could ship a whole product solo… used Linear's AI triage… turns out I just had 47 buried bugs'), but the core pain of buried notifications and Slack/spreadsheet chaos is anxiety-driven rather than confidence-driven, so the 'delusional confidence' emotional register requires meaningful bending to feel authentic to Linear's direct, opinionated tone."
     },
     {
       "id": "earned_not_gifted",
-      "score": 6,
-      "reason": "The 'unglamorous discipline habit list' mechanic fits the brand's no-nonsense tone and could naturally slot Linear usage alongside mundane dev rituals (standups, PR reviews), but it doesn't directly target the core pain of being buried in tickets or the specific hard way of copying Slack messages into Jira—the self-deprecating reframe works generically but doesn't sharpen against Linear's particular enemy."
+      "score": 3,
+      "reason": "The self-deprecating 'unglamorous discipline' mechanic centers on personal lifestyle habits and humble-brag identity, but Linear's core pain is team coordination chaos and buried notifications—a professional workflow problem that doesn't map naturally onto the introspective, individualistic emotional register this format requires."
     }
   ],
-  "selection_reason": "The 'no Jira, no Asana, no Notion' escalating negation list maps cleanly onto the named competitors and the 'just them and Linear' payoff frames the product as the sane-but-admired choice, though the 'psychopath' admiration framing slightly undercuts Linear's sharp, no-nonsense tone by making the user seem reckless rather than disciplined.",
+  "selection_reason": "The self-check mechanic maps naturally onto the pain of buried bugs and Slack-switching chaos—engineers can immediately recognize each red flag in their own workflow—but the dating-language emotional register needs slight bending since Linear's tone is direct and opinionated rather than playful or personal.",
   "variants": [
     {
-      "text": "my cofounder running the entire sprint solo after the lead dev quit. no standups. no status pings. no notion docs. no jira. just her and linear, triaging tickets at 2am like a psychopath",
-      "word_count": 33,
+      "text": "red flags in a tech lead: still triaging bugs inside a jira board from 2019. pings the team in slack instead of updating the ticket. tracks sprint progress in a google sheet. hasn't closed a p0 in three weeks. green flag: caught triaging the backlog in linear at 7am before standup",
+      "word_count": 51,
       "length_flagged": false
     },
     {
-      "text": "my tech lead rebuilding the roadmap from scratch after the product pivot. no slack threads. no asana board. no sticky notes. no notion. just him and linear, closing tickets before the retro even starts like a psychopath",
-      "word_count": 37,
+      "text": "red flags in an engineering manager: routes bug reports through a slack thread. keeps the roadmap in a notion doc nobody opens. calls a meeting to ask what's blocked. closes jira tickets by hand every friday. green flag: spotted letting linear triage the overnight alerts before anyone's logged on",
+      "word_count": 49,
       "length_flagged": false
     },
     {
-      "text": "my intern shipping features alone after the senior eng left. no meetings. no github issues. no asana. no jira. just them and linear, burning through the backlog on day three like a psychopath",
-      "word_count": 33,
-      "length_flagged": false
+      "text": "red flags in a product manager: sprint board lives in a jira ticket graveyard. pings six people in slack to find who owns a bug. roadmap is a google sheet with three broken formulas. marks everything priority one. green flag: seen letting linear sort the incoming bug queue while the standup is still loading",
+      "word_count": 54,
+      "length_flagged": true,
+      "length_flag_reason": "54 words vs target 46 (+/-15% band: 39-53); closest of 2 attempts, kept rather than looping further"
     }
   ],
   "scores": [
     {
       "variant_index": 0,
-      "hook_strength": 8,
-      "specificity": 8,
-      "sounds_human": 9
+      "hook_strength": 7,
+      "specificity": 9,
+      "sounds_human": 8
     },
     {
       "variant_index": 1,
@@ -68,21 +69,21 @@
     },
     {
       "variant_index": 2,
-      "hook_strength": 8,
-      "specificity": 7,
-      "sounds_human": 8
+      "hook_strength": 7,
+      "specificity": 9,
+      "sounds_human": 9
     }
   ],
-  "winner_index": 0,
-  "winner_reasoning": "The cofounder detail makes the stakes feel real and personal, and '2am like a psychopath' lands as a genuinely human, specific image that the other variants can't match. The emotional texture of someone holding it together solo after a lead dev quits is the most viscerally relatable scenario of the three.",
-  "winner": "my cofounder running the entire sprint solo after the lead dev quit. no standups. no status pings. no notion docs. no jira. just her and linear, triaging tickets at 2am like a psychopath",
+  "winner_index": 2,
+  "winner_reasoning": "Variant 2 lands the hardest because 'google sheet with three broken formulas' and 'marks everything priority one' are painfully specific and universally recognized behaviors that feel lived-in, not written. The green flag payoff — 'while the standup is still loading' — earns a laugh and makes the product feel fast without saying fast.",
+  "winner": "red flags in a product manager: sprint board lives in a jira ticket graveyard. pings six people in slack to find who owns a bug. roadmap is a google sheet with three broken formulas. marks everything priority one. green flag: seen letting linear sort the incoming bug queue while the standup is still loading",
   "creator_brief": {
-    "on_screen_text": "my cofounder running the entire sprint solo after the lead dev quit. no standups. no status pings. no notion docs. no jira. just her and linear, triaging tickets at 2am like a psychopath",
-    "base_clip": "clips/reaction_01.mp4",
-    "audio_mood": "tense_build",
-    "audio_note": "Keeping the format default: a sparse, low-tempo electronic track with a single looping synth pulse and a subtle bass swell that peaks right at '2am like a psychopath' — dark productivity energy, minor key, think minimalist dark-tech underscore.",
-    "visual_mechanic": "dead-pan stare into camera, single slow nod on the last line",
-    "performance_note": "Quiet, unhinged pride — the creator stares dead into camera with zero expression for most of the script, then lets a single corner of the mouth twitch upward on 'psychopath' before landing the slow nod, telegraphing 'yeah, we actually did that.'",
-    "format_reason": "The 'no Jira, no Asana, no Notion' escalating negation list maps cleanly onto the named competitors and the 'just them and Linear' payoff frames the product as the sane-but-admired choice, though the 'psychopath' admiration framing slightly undercuts Linear's sharp, no-nonsense tone by making the user seem reckless rather than disciplined."
+    "on_screen_text": "red flags in a product manager: sprint board lives in a jira ticket graveyard. pings six people in slack to find who owns a bug. roadmap is a google sheet with three broken formulas. marks everything priority one. green flag: seen letting linear sort the incoming bug queue while the standup is still loading",
+    "base_clip": "clips/reaction_02.mp4",
+    "audio_mood": "meme_chaotic",
+    "audio_note": "Fast-cut, dry-sarcastic lo-fi with a punchy snare and slightly off-kilter synth stabs — like a corporate satire sketch underscore at ~130 BPM in a minor key; this is the format's default mood, kept because the red-flag countdown format and tech-worker in-jokes are pure meme energy that matches Linear's opinionated, no-BS brand voice.",
+    "visual_mechanic": "counting off red flags on raised fingers, exaggerated unimpressed head tilt",
+    "performance_note": "Weaponized secondhand embarrassment — deadpan disgust at the red flags, delivered with each finger raised slowly and a flat, barely-blinking stare at camera, then a subtle smug exhale and half-smile on the green flag reveal.",
+    "format_reason": "The self-check mechanic maps naturally onto the pain of buried bugs and Slack-switching chaos—engineers can immediately recognize each red flag in their own workflow—but the dating-language emotional register needs slight bending since Linear's tone is direct and opinionated rather than playful or personal."
   }
 }
