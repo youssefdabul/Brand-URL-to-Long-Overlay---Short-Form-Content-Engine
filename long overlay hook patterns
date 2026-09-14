@@ -1,0 +1,148 @@
+# Long overlay — hook patterns
+
+One block of text over a single clip. Read silently in under eight seconds. No payoff coming, no CTA, no second line. The text *is* the video.
+
+---
+
+## What makes this format work
+
+The emotion is **recognition**, not curiosity. A spoken hook opens a loop the video closes. This closes nothing — it names something so precisely that the viewer feels caught, and the comment section becomes the payoff.
+
+Five rules underneath all the patterns below:
+
+**25–45 words.** Under 25 and it's a caption. Over 45 and nobody finishes reading before they've scrolled.
+
+**End on the sharpest concrete noun.** Not a conclusion, not a lesson. The last three words are what gets screenshotted.
+
+**One true detail minimum.** "40 tabs open" not "disorganised". "the 2:47am email" not "late at night". Specificity is the entire mechanic — vagueness reads as written-by-committee.
+
+**The clip must not illustrate the text.** If the text is about burnout and the clip is someone looking tired, you've made an advert. Deadpan, unrelated, or contradicting is what makes it land. A person staring blankly while the text describes their inner collapse.
+
+**All lowercase, no emojis, no exclamation marks.** The register is someone typing quietly, not a brand announcing something.
+
+---
+
+## The patterns
+
+### 1. The forensic callout
+Name a type of person, then accumulate details until it's uncomfortably specific. Each clause narrows.
+
+> the guy who says he's "exploring options" but has the same three job boards open in pinned tabs and hasn't changed his cv since march
+
+Works because the reader recognises themselves somewhere in the accumulation. Stop one detail past comfortable.
+
+---
+
+### 2. Compressed timeline
+Two moments in one sentence, with the gap doing the work. No transition, no explanation.
+
+> you were the smartest person in your sixth form and now you're refreshing an application portal at 1am hoping a company you can't spell rejects you politely
+
+The jump is the joke and the grief at once.
+
+---
+
+### 3. Unspoken internal monologue
+What someone is thinking and would never say out loud. Second person.
+
+> you're not tired you just don't want to open the document because opening it means finding out how far behind you actually are
+
+Best of the set for getting saves rather than likes. People send these to each other.
+
+---
+
+### 4. The inventory
+A list of possessions, habits or tabs that paints a whole person without naming them.
+
+> linkedin premium, a notion template you paid for, three half-finished courses, and a spotify playlist called "lock in" that you've listened to twice
+
+Comma rhythm matters more than content here. Four items, the fourth one funniest.
+
+---
+
+### 5. Everyone but you
+Social comparison stated flatly, never complained about. The flatness is what stops it being self-pity.
+
+> everyone you graduated with has a linkedin banner saying "excited to announce" and you have a spreadsheet called applications_final_v3
+
+---
+
+### 6. The delayed understanding
+Something said years ago that only makes sense now. Opens with a time marker.
+
+> your dad said "you'll understand when you're older" and you thought he meant taxes but he meant this specific feeling on a sunday evening
+
+Softer register. Good when the clip is quiet and the audio is sad piano rather than meme-chaotic.
+
+---
+
+### 7. The conditional trap
+"if you… you already know" — makes the reader self-select into the video.
+
+> if you've ever rewritten the same opening line of a cold email eleven times and then not sent it, you already know exactly what's wrong and it isn't the email
+
+---
+
+### 8. The reframe
+A flat correction of something the reader believes about themselves. No advice attached.
+
+> you're not bad at networking you just can't bring yourself to ask a stranger for something when you're not sure you deserve it yet
+
+---
+
+### 9. The quoted outburst
+Lowercase setup describing something mildly disappointing someone said, then an ALL CAPS quote of what they *should* have said. The brand lives inside the imagined rant.
+
+Three instances across two brands confirm this is a deliberate, reusable template rather than a one-off. The skeleton:
+
+```
+i hate {when i say / telling people} {SITUATION}
+and {they say / people go} "{SOFT PLATITUDE}"
+and not "{IMPERATIVE TO USE BRAND}. {BENEFIT FRAGMENT}. {BENEFIT FRAGMENT}.
+OR STAY {BAD STATE} FOREVER{ / YOUR CHOICE}"
+```
+
+Observed fills:
+
+> i hate telling people i've been job searching for 4 months and they say "just network" and not "YOU'RE STILL ON LINKEDIN?? OPEN REMOTE ROCKETSHIP. 100K REMOTE JOBS. HIDDEN POSTINGS. FILTERED FEED. OR STAY UNEMPLOYED FOREVER"
+
+> i hate when i say i'm exhausted and people go "rest is productive too" and not "GET ON REPLIT. BUILD SOMETHING THAT PAYS YOU WHILE YOU SLEEP OR STAY BROKE FOREVER YOUR CHOICE"
+
+**The pivot is the soft platitude.** Every niche has one — the well-meaning, useless thing people say. "just network". "rest is productive too". "everything happens for a reason". "just be consistent". Find that line and the rest of the skeleton fills itself, which is why this generalises across brands so cleanly.
+
+**The ultimatum ending is the signature.** A binary threat, no hedging: OR STAY UNEMPLOYED FOREVER. OR STAY BROKE FOREVER YOUR CHOICE. It's the part that would be unusable in any other format and works here precisely because it's quoted — the poster isn't threatening you, an imaginary furious friend is.
+
+Three things carry it. The **case shift** does the emotional work — quiet complaint into shouting, a visual gradient as much as a tonal one. The "and not…" structure sets up a gap the caps fill violently. And the pitch is **in someone else's mouth**, so the poster never recommends anything.
+
+The caps section can be near-pure feature list and still read as human, because people do shout in fragments.
+
+---
+
+### 10. The envy threshold
+"if i see one more [person doing X] while i'm [doing worse thing] i'm done." The brand sits inside the thing being envied.
+
+> if i see one more girl posting "i quit my job" after 2 weeks on remote rocketship while i'm doing unpaid case studies for ghost recruiters i'm done
+
+The endorsement is entirely implied — the poster is jealous of people using the product, which is a stronger proof than any claim about it. The contrast clause is where the specific detail goes, and it has to be the grimmer half. "unpaid case studies for ghost recruiters" is doing more work than the brand mention.
+
+---
+
+## For brand work
+
+The default rule: **the brand appears exactly once, as a verb phrase, never in the first line.** "speedrunning flashcards on youlearn" is correct. "youlearn helps you study faster" is an advert and the format rejects it.
+
+> spent four hours making a revision timetable, zero hours revising, and now it's 11pm and you're speedrunning flashcards on youlearn like that was the plan all along
+
+But patterns 9 and 10 show the sharper move, and it's worth naming as its own principle: **put the brand in someone else's mouth.**
+
+The poster never endorses. Either a character in the text shouts the recommendation (9), or the poster resents people who already use it (10). Both let you be far more explicit about features than a verb phrase allows — that caps block is essentially a bullet list — while still reading as something a person typed rather than something a brand wrote.
+
+The test isn't "is the brand mentioned subtly." It's "**who in this text is doing the recommending, and is it the narrator?**" If it's the narrator, it's an ad. If it's anyone else, including an imagined friend or a person being envied, it isn't.
+
+---
+
+## Where this format breaks
+
+Long overlay suits software, AI tools, apps and anything with a relatable failure state. It struggles with lifestyle and physical products — Monzo or Oura don't have an obvious "person failing at something" frame, and forcing one produces the generic version. Those want carousels or demo-first formats instead.
+
+Worth knowing before you pitch it as the answer to everything.
